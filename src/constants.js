@@ -1,0 +1,30 @@
+export const C = {
+  navy: '#0B1D3A',
+  navyDark: '#060E1E',
+  blue: '#1A4480',
+  blueMid: '#2563A8',
+  gold: '#C8A96E',
+  goldLight: '#E8D5B0',
+  white: '#FFFFFF',
+  off: '#F4F7FB',
+  light: '#EBF2FA',
+  muted: '#8899AA',
+  text: '#1C2B3A',
+  border: 'rgba(26,68,128,0.12)',
+};
+
+export const FRAMES = [
+  { id: 'FP-2072', img: '/images/fp2072.jpg', name: 'Geometric Bold', style: 'Unisex - Acetate' },
+  { id: 'FP-2069', img: '/images/fp2069.jpg', name: 'Round Classic', style: 'Unisex - Acetate' },
+  { id: 'FP-2080', img: '/images/fp2080.jpg', name: 'Crystal Butterfly', style: 'Women - Acetate' },
+  { id: 'FP-2088', img: '/images/fp2088.jpg', name: 'Tortoise Cat Eye', style: 'Women - Acetate' },
+  { id: 'FP-2020', img: '/images/fp2020.jpg', name: 'Black Marble', style: 'Women - Acetate' },
+  { id: 'FP-2076', img: '/images/fp2076.jpg', name: 'Rose Oval', style: 'Women - Acetate' },
+  { id: 'FP-2073', img: '/images/fp2073.jpg', name: 'Ruby Oversize', style: 'Women - Acetate' },
+  { id: 'FP-2066', img: '/images/fp2066.jpg', name: 'Pastel Square', style: 'Unisex - Acetate' },
+  { id: 'FP-2036', img: '/images/fp2036.jpg', name: 'Nude Cat Eye', style: 'Women - Acetate' },
+  { id: 'PREM-01', img: '/images/blackgold.jpg', name: 'Black and Gold Round', style: 'Unisex - Metal' },
+  { id: 'PREM-02', img: '/images/roundgold.jpg', name: 'Vintage Gold Circle', style: 'Unisex - Metal' },
+  { id: 'PREM-03', img: '/images/rimless.jpg', name: 'Rimless Executive', style: 'Men - Titanium' },
+  { id: 'SUN-01', img: '/images/sunglasses.jpg', name: 'Navigator Rimless', style: 'Unisex - Sunwear' },
+];

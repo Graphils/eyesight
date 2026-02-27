@@ -1,0 +1,17 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Jost', sans-serif; background: #fff; color: #1C2B3A; overflow-x: hidden; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #F4F7FB; }
+::-webkit-scrollbar-thumb { background: #1A4480; border-radius: 3px; }
+::selection { background: #1A4480; color: white; }
+
+input, textarea, select { font-family: 'Jost', sans-serif; }
+
+@media (max-width: 900px) {
+  .grid-2 { grid-template-columns: 1fr !important; }
+  .grid-3 { grid-template-columns: 1fr !important; }
+  .hide-mobile { display: none !important; }
+  .show-mobile { display: flex !important; }
+}
