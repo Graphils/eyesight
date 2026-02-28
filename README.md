@@ -1,56 +1,50 @@
-# Eye-Sight Care & Optical — Website
+# 🏙️ CivicTechTide
 
-A professional React website for Eye-Sight Care & Optical, Kasoa, Ghana.
+> A community hazard reporting platform connecting citizens to local government in real-time.
 
----
+![Tech Stack](https://img.shields.io/badge/Stack-TypeScript%20%7C%20React%20%7C%20Django%20%7C%20PostgreSQL-blue)
+![Status](https://img.shields.io/badge/Status-Live-green)
+![Company](https://img.shields.io/badge/TechTide-Stratum-orange)
 
-## How to Run
+## 📌 Overview
+CivicTechTide allows community members to report local hazards — potholes, broken 
+infrastructure, safety threats — with real-time notifications sent to authorities 
+and residents. Built to bridge the gap between citizens and local government.
 
-### Option 1 — Run locally with Node.js
+## 🚀 Features
+- 📍 Location-based hazard reporting
+- 🔔 Real-time notifications to authorities
+- 🗺️ Interactive map of reported issues
+- 👥 Community upvoting system
+- 📊 Admin dashboard for government officials
 
-1. Make sure you have **Node.js** installed (https://nodejs.org)
-2. Open a terminal inside this folder
-3. Run:
+## 🛠️ Tech Stack
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript |
+| Backend | Django, Python |
+| Database | PostgreSQL |
+| Real-time | WebSockets |
 
+## ⚙️ Getting Started
 ```bash
+# Clone the repo
+git clone https://github.com/Graphils/CivicTechTide.git
+
+# Install dependencies
+cd CivicTechTide
 npm install
-npm start
+
+# Run development server
+npm run dev
 ```
 
-4. The website opens at **http://localhost:3000**
+## 📸 Screenshots
+*(Add screenshots here)*
+
+## 👤 Author
+**Grah Akwasi Philip** — Founder, TechTide Stratum  
+[Portfolio](https://graphilsportfolio.netlify.app) · [GitHub](https://github.com/Graphils)
 
 ---
-
-### Option 2 — Build for production / hosting
-
-```bash
-npm install
-npm run build
-```
-
-This creates a `build/` folder. Upload the contents of `build/` to any web host (Netlify, Vercel, cPanel, etc.)
-
----
-
-## Deploy FREE on Netlify (Recommended)
-
-1. Go to https://netlify.com and sign up free
-2. Click **"Add new site" → "Import an existing project"**
-3. Drag and drop the entire project folder
-4. Done — your site is live!
-
----
-
-## Booking Form
-
-When a visitor submits the booking form, their email client opens with all details pre-filled and addressed to:
-**eyesightoptical2021@gmail.com**
-
----
-
-## Contact Info in the site
-
-- Phone: +233 547 097 213 / +233 208 332 058
-- WhatsApp (International): +1 509 428 4603
-- Email: eyesightoptical2021@gmail.com
-- Location: Kasoa Obom Road (Road of Justice), Lamptey — Opposite Merkot Pharmacy
+*Built with ❤️ under [TechTide Stratum](https://github.com/TechTide-Stratum)*
